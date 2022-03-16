@@ -56,23 +56,79 @@ ul{
     padding: 20px;
     border: 1px solid #888; 
      width: 30%; /*Could be more or less, depending on screen size  */
-    max-width: 300px;
-    max-height: 500px;
+    width: 350px;
+    height: 400px;
     font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-size: 70% ;
+    background-position: bottom;
     background-repeat:no-repeat  
     
   }
+  .modal-content2{
+    background-image: url("/img/Ilovegold.jpg");
+     border-radius: 5px; 
+    /* background-color: #4f8665; */
+     margin: 15% auto; /*15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888; 
+    width: 30%; /*Could be more or less, depending on screen size  */
+    width: 350px;
+    height: 400px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-size: 70% ;
+    background-position: bottom;
+    background-repeat:no-repeat 
+  }
+
+  .modal-content3{
+    background-image: url("/img/raw.png");
+     border-radius: 5px; 
+    /* background-color: #4f8665; */
+     margin: 15% auto; /*15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888; 
+    width: 30%; /*Could be more or less, depending on screen size  */
+    width: 350px;
+    height: 400px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-size: 70% ;
+    background-position: bottom;
+    background-repeat:no-repeat
+}
   
   /* The Close Button */
-  .close {
+  .close1,
+  .close2,
+  .close3 {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
+  .close1:hover,
+  .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close3:hover,
+  .close3:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -94,11 +150,18 @@ ul{
     background-size: cover;
   }
   h3{
-    color: rgb(29, 228, 39);
+    color:gold;
   }
   h1{
-    color: rgb(42, 184, 250);
+    color: gold;
   }
   h2{
-    color: rgb(252, 255, 47);
+    color:gold;
+  }
+
+  .FatBastard{
+
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
   }

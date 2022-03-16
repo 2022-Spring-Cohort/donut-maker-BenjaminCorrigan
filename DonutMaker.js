@@ -4,8 +4,8 @@ export default class DonutMaker{
         
         this.DonutCount = 0;
         this.AutoclickCount = 0;
-        this.AutoCost= 15;
-        this.MultiCost= 10;
+        this.AutoCost= 100;
+        this.MultiCost= 15;
         this.MultiplierCount = 0;
         this.AutoBuy = false;
         this.MultiBuy = false;
